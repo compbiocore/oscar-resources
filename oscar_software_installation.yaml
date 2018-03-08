@@ -1,7 +1,7 @@
 oscar-software-installation:
-	conda:
-		mkdir installers/conda
-		wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
-		md5 https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
-    # conda installs in interactive mode - installed to /gpfs/runtime/cbc_conda/cbc_conda_v1_root
-		mv https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64* installers/conda
+    conda:
+		    mkdir installers/conda
+		    wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+		    md5 https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+        # conda installs in interactive mode - installed to /gpfs/runtime/cbc_conda/cbc_conda_v1_root
+		    mv https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64* installers/conda
